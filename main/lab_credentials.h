@@ -18,13 +18,13 @@
 /* ----------------------------------------------------------------------------
  * 1. Wi-Fi Station Credentials (2.4 GHz Required for ESP32)
  * ---------------------------------------------------------------------------- */
-#define LAB_WIFI_SSID               "YOUR_LAB_WIFI_SSID"
-#define LAB_WIFI_PASS               "YOUR_LAB_WIFI_PASSWORD"
+#define LAB_WIFI_SSID               "YOUR_WIFI_SSID"
+#define LAB_WIFI_PASS               "YOUR_WIFI_PASSWORD"
 
 /* ----------------------------------------------------------------------------
  * 2. Student / Team Identification & REST Provisioning Endpoint
  * ---------------------------------------------------------------------------- */
-#define LAB_STUDENT_ID              "team_01_alice_bob"
+#define LAB_STUDENT_ID              "samuel_sebastian_pibble"
 #define FASTAPI_SERVER_URL          "http://eniacelectronics.cloud:8000/api/v1/enroll"
 
 /* ----------------------------------------------------------------------------
@@ -33,8 +33,8 @@
  * IMPORTANT: In Module 3 & 4, the IP address in `LAB_MQTT_BROKER_TLS_URI` MUST
  * exactly match the `subjectAltName = IP:x.x.x.x` baked into your `server.crt`!
  */
-#define LAB_MQTT_BROKER_PLAIN_URI   "mqtt://192.168.1.100:1883"
-#define LAB_MQTT_BROKER_TLS_URI     "mqtts://192.168.1.100:8883"
+#define LAB_MQTT_BROKER_PLAIN_URI   "mqtt://192.168.1.59:1883"
+#define LAB_MQTT_BROKER_TLS_URI     "mqtts://192.168.1.59:8883"
 
 /* Optional MQTT Username / Password (if password_file is enabled in Mosquitto) */
 #define LAB_MQTT_USERNAME           "iot_student"

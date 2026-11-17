@@ -37,8 +37,8 @@ static const char *TAG = "LAB_SESSION2";
  * NOTE: Enable EITHER Plaintext (Module 2) OR TLS (Module 4) at one time!
  */
 #define LAB_ENABLE_HTTP_ENROLL      0   /* Optional: Re-run Session 1 FastAPI enrollment */
-#define LAB_ENABLE_MQTT_PLAINTEXT   1   /* Module 2: Connect via mqtt://<PC_IP>:1883     */
-#define LAB_ENABLE_MQTT_TLS         0   /* Module 4: Connect via mqtts://<PC_IP>:8883    */
+#define LAB_ENABLE_MQTT_PLAINTEXT   0   /* Module 2: Connect via mqtt://<PC_IP>:1883     */
+#define LAB_ENABLE_MQTT_TLS         1   /* Module 4: Connect via mqtts://<PC_IP>:8883    */
 
 void app_main(void)
 {
